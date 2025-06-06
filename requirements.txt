@@ -2,12 +2,14 @@ altair==5.5.0
 attrs==25.3.0
 blessings==1.7
 blinker==1.9.0
+branca==0.8.1
 cachetools==5.5.2
 certifi==2025.4.26
 charset-normalizer==3.4.2
 click==8.2.1
 colorama==0.4.6
 ee==0.2
+folium==0.19.7
 gitdb==4.0.12
 GitPython==3.1.44
 idna==3.10
@@ -38,3 +40,4 @@ typing_extensions==4.14.0
 tzdata==2025.2
 urllib3==2.4.0
 watchdog==6.0.0
+xyzservices==2025.4.0
