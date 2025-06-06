@@ -3,12 +3,14 @@
 This app visualizes administrative boundaries of Nepal
 
 ## How the code is organized
-Main:-Nepal_administrationApp.py #main app, imports, utility
-     -Readme.md 
-     -requirements.txt 
-Utils:-data_loader.py # load and/or cache data
-      -model_loader.py # load and cache models
-data:-data.csv #store data files/source
+Main: - Nepal_administrationApp.py #main app, imports, utility
+      - Readme.md 
+      - requirements.txt 
+Utils: - data_loader.py # load and/or cache data
+       - model_loader.py # load and cache models
+data: - data.csv #store data files/source
+components: - header.py  # reusable UI components
+            - sidebar.py
 
 ## How to Run
 1. Install dependencies: `pip install -r requirements.txt`
