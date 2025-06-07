@@ -18,7 +18,7 @@ def create_map(Nepal_admin, selected_district = None):
     m.centerObject(Nepal_admin, zoom = 9)
 
     # Add layer control
-    m.add_control(geemap.LayersControl())
+    m.addLayersControl()
 
     # Display the map in Streamlit
     return m.to_streamlit(width=1200, height=600)

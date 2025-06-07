@@ -20,7 +20,7 @@ features = Nepal_admin.getInfo()['features']
 district_names = sorted(set([f['properties']['ADM2_NAME'] for f in features]))
 
 # sidebar for filtering
-selected_district = st.sidebar.selectbox("Filter by Disctrict Name",['ALL']) + district_names
+selected_district = st.sidebar.selectbox("Filter by Disctrict Name",['ALL'] + district_names)
 
 # show full or filtered map
 if selected_district == "ALL":
