@@ -1,4 +1,5 @@
 import geemap.foliumap as geemap
+import ee
 
 def create_map(Nepal_admin, selected_district = None):
     # Create a geemap map object
