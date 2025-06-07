@@ -19,4 +19,4 @@ def create_map(Nepal_admin):
             'fillOpacity' : 0.4
         }
     ).add_to(m)
-    return st_folium(m)
+    return st_folium(m, width = 700, height=500)
