@@ -3,7 +3,7 @@ from streamlit_folium import st_folium
 
 def create_map(Nepal_admin):
     # Convert GEE FeatureCollection to GeoJSON
-    geoj = Nepal_admin.geometry().coordinates().get(0).getInfo()
+    geoj = Nepal_admin.getInfo()
 
     # Create Folium map centered on the Kathmandu
     m = folium.Map(location = [84.259,28.06], zoom_start = 7)
