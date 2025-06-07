@@ -18,7 +18,6 @@ Nepal_admin = get_Nepal_adm()
 # Create and display map
 m = create_map(Nepal_admin)
 
-# render the folium map
-st_folium(m, width=1200, height=600)
+
 
 
