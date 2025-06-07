@@ -6,7 +6,7 @@ def create_map(Nepal_admin):
     geoj = Nepal_admin.getInfo()
 
     # Create Folium map centered on the Kathmandu
-    m = folium.Map(location = [84.259,28.06], zoom_start = 7)
+    m = folium.Map(location = [28.3949,84.124], zoom_start = 7)
 
     # Add the administrative boundaries
     folium.GeoJson(
